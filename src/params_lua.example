@@ -1,0 +1,5 @@
+-- edit, save as params.lua, and upload
+params={}
+params.ssid='MY SSID'
+params.wifiPwd='wifi password'
+

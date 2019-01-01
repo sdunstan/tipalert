@@ -1,5 +1,6 @@
+dofile("params.lua")
 wifi.setmode(wifi.STATION)
-wifi.sta.config("mywifinetworkname","mywifinetworkpassword")
+wifi.sta.config(params.ssid,params.wifiPwd)
 wifi.sta.connect()
 tmr.alarm(1, 1000, 1, function()
 	if wifi.sta.getip() == nil then
