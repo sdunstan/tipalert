@@ -3,3 +3,13 @@ params={}
 params.ssid='MY SSID'
 params.wifiPwd='wifi password'
 
+params.twilioAccount='ABCDEABCDEABDECASFASDFDSF'
+--This is your base 64 encoded auth string. i.e., base64.encode('steve:mypassword')
+params.twilioAuth='SADFASDFDSAFDSFSFDSFSDAFSDFADSFSADFSDFDSS=='
+-- Phone number to send the message to. No +
+params.smsTo='15055550000'
+-- Twilio phone number to send from
+params.smsFrom='15055550001'
+-- URL encoded message
+params.smsMessage='FALL%20DETECTED%21'
+
