@@ -2,6 +2,8 @@
 
 This is a tiny project for detecting and reporting certian kinds of falls. This README is mostly for capturing my notes, others may find it useful as a guide.
 
+![TipAlert photo](tipalert-photo.jpg)
+
 ## System Architecture
 This system is designed to detect a fall where someone in a wheelchair falls over, is prevented from falling on the floor by a seatbelt, but cannot right themselves. To detect this situation, two pressure sensitive buttons are placed behind the user's leg and back. A fall is then detected when for some length of time, the back button is not pressed but the leg button is pressed. This minimizes false positives when the user is completely out of the wheelchair or sitting normally.
 
